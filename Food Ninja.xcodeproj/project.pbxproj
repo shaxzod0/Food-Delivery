@@ -7,25 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DC3B144117547B0E59AB46 /* Pods_Food_Ninja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9485A09DAC348D62BDD9C1FF /* Pods_Food_Ninja.framework */; };
+		791E9C8D28D32B48005182E6 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E9C8C28D32B48005182E6 /* NavigationRouter.swift */; };
 		793B587C28C9C5A500321809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B587B28C9C5A500321809 /* AppDelegate.swift */; };
-		793B587E28C9C5A500321809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B587D28C9C5A500321809 /* SceneDelegate.swift */; };
-		793B588028C9C5A500321809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B587F28C9C5A500321809 /* ViewController.swift */; };
-		793B588328C9C5A500321809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793B588128C9C5A500321809 /* Main.storyboard */; };
 		793B588628C9C5A500321809 /* Food_Ninja.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 793B588428C9C5A500321809 /* Food_Ninja.xcdatamodeld */; };
 		793B588828C9C5A700321809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793B588728C9C5A700321809 /* Assets.xcassets */; };
 		793B588B28C9C5A700321809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793B588928C9C5A700321809 /* LaunchScreen.storyboard */; };
+		793B58CD28C9ED0F00321809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58CC28C9ED0F00321809 /* SceneDelegate.swift */; };
+		793B58E128C9F2A000321809 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58E028C9F2A000321809 /* LoginViewController.swift */; };
+		793B58E328C9F2AB00321809 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58E228C9F2AB00321809 /* LoginViewModel.swift */; };
+		793B58EA28C9F76300321809 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58E928C9F76300321809 /* UserDefault.swift */; };
+		793B58F628C9FC5000321809 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58F528C9FC5000321809 /* HomeViewController.swift */; };
+		793B58F928C9FC7A00321809 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B58F828C9FC7A00321809 /* HomeViewModel.swift */; };
+		795DA5E928D48EC70017E021 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DA5E828D48EC70017E021 /* TabBarCoordinator.swift */; };
+		795DA5F428D49A870017E021 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DA5F328D49A870017E021 /* Colors.swift */; };
+		795DA5FA28D49DB80017E021 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DA5F928D49DB80017E021 /* CartViewController.swift */; };
+		795DA5FC28D49DD80017E021 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795DA5FB28D49DD80017E021 /* OrderViewController.swift */; };
+		797309E028CA058B000E4507 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309DF28CA058B000E4507 /* ProfileCoordinator.swift */; };
+		797309E228CA059C000E4507 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309E128CA059C000E4507 /* ProfileViewModel.swift */; };
+		797309E428CA05B0000E4507 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309E328CA05B0000E4507 /* ProfileViewController.swift */; };
+		797309E628CA1881000E4507 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309E528CA1881000E4507 /* Router.swift */; };
+		797309EB28CA1CD7000E4507 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309EA28CA1CD7000E4507 /* Coordinator.swift */; };
+		797309ED28CA21F2000E4507 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797309EC28CA21F2000E4507 /* TabBarViewController.swift */; };
+		79DBCCFD28D3303A0050C8FB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBCCFC28D3303A0050C8FB /* AppCoordinator.swift */; };
+		79DBCCFF28D3312D0050C8FB /* AppDelegateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBCCFE28D3312D0050C8FB /* AppDelegateRouter.swift */; };
+		79DBCD0128D331F60050C8FB /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBCD0028D331F60050C8FB /* AuthCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B63D290A8E26DCFDB2CAE0D /* Pods-Food Ninja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Ninja.debug.xcconfig"; path = "Target Support Files/Pods-Food Ninja/Pods-Food Ninja.debug.xcconfig"; sourceTree = "<group>"; };
+		791E9C8C28D32B48005182E6 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		793B587828C9C5A500321809 /* Food Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		793B587B28C9C5A500321809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		793B587D28C9C5A500321809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		793B587F28C9C5A500321809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		793B588228C9C5A500321809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793B588528C9C5A500321809 /* Food_Ninja.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Ninja.xcdatamodel; sourceTree = "<group>"; };
 		793B588728C9C5A700321809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793B588A28C9C5A700321809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		793B588C28C9C5A700321809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793B58CC28C9ED0F00321809 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		793B58E028C9F2A000321809 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		793B58E228C9F2AB00321809 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		793B58E928C9F76300321809 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		793B58F528C9FC5000321809 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		793B58F828C9FC7A00321809 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		795DA5E828D48EC70017E021 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		795DA5F328D49A870017E021 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		795DA5F928D49DB80017E021 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		795DA5FB28D49DD80017E021 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		797309DF28CA058B000E4507 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		797309E128CA059C000E4507 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		797309E328CA05B0000E4507 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		797309E528CA1881000E4507 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		797309EA28CA1CD7000E4507 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		797309EC28CA21F2000E4507 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		79DBCCFC28D3303A0050C8FB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		79DBCCFE28D3312D0050C8FB /* AppDelegateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateRouter.swift; sourceTree = "<group>"; };
+		79DBCD0028D331F60050C8FB /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		9485A09DAC348D62BDD9C1FF /* Pods_Food_Ninja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Ninja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B165B1FB536807BE1971081A /* Pods-Food Ninja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Ninja.release.xcconfig"; path = "Target Support Files/Pods-Food Ninja/Pods-Food Ninja.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DC3B144117547B0E59AB46 /* Pods_Food_Ninja.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +83,8 @@
 			children = (
 				793B587A28C9C5A500321809 /* Food Ninja */,
 				793B587928C9C5A500321809 /* Products */,
+				EA55777AD20D3D25C57E3766 /* Pods */,
+				E969321ABF38660EAE99738B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +99,250 @@
 		793B587A28C9C5A500321809 /* Food Ninja */ = {
 			isa = PBXGroup;
 			children = (
-				793B587B28C9C5A500321809 /* AppDelegate.swift */,
-				793B587D28C9C5A500321809 /* SceneDelegate.swift */,
-				793B587F28C9C5A500321809 /* ViewController.swift */,
-				793B588128C9C5A500321809 /* Main.storyboard */,
+				795DA5F228D49A790017E021 /* Extension */,
+				793B58E828C9F75400321809 /* Default */,
+				793B58C028C9E8AD00321809 /* Model */,
+				793B58D628C9F0ED00321809 /* Modules */,
+				793B58C628C9E8AD00321809 /* Coordinator */,
+				797309E728CA1999000E4507 /* Router */,
+				793B589228C9C5C400321809 /* App */,
 				793B588728C9C5A700321809 /* Assets.xcassets */,
 				793B588928C9C5A700321809 /* LaunchScreen.storyboard */,
 				793B588C28C9C5A700321809 /* Info.plist */,
 				793B588428C9C5A500321809 /* Food_Ninja.xcdatamodeld */,
 			);
 			path = "Food Ninja";
+			sourceTree = "<group>";
+		};
+		793B589228C9C5C400321809 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				793B587B28C9C5A500321809 /* AppDelegate.swift */,
+				793B58CC28C9ED0F00321809 /* SceneDelegate.swift */,
+				79DBCCFE28D3312D0050C8FB /* AppDelegateRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		793B58C028C9E8AD00321809 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		793B58C628C9E8AD00321809 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				797309EA28CA1CD7000E4507 /* Coordinator.swift */,
+				79DBCCFC28D3303A0050C8FB /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		793B58D628C9F0ED00321809 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				793B58D828C9F0FB00321809 /* Auth */,
+				793B58D728C9F0F500321809 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		793B58D728C9F0F500321809 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				793B58F028C9FBF900321809 /* Order */,
+				793B58EF28C9FBF100321809 /* Cart */,
+				793B58EE28C9FBE700321809 /* Profile */,
+				793B58ED28C9FBE000321809 /* Home */,
+				797309EC28CA21F2000E4507 /* TabBarViewController.swift */,
+				795DA5E828D48EC70017E021 /* TabBarCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		793B58D828C9F0FB00321809 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				793B58DD28C9F22500321809 /* Login */,
+				79DBCD0028D331F60050C8FB /* AuthCoordinator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		793B58DD28C9F22500321809 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				793B58DF28C9F28100321809 /* ViewController */,
+				793B58DE28C9F27900321809 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		793B58DE28C9F27900321809 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				793B58E228C9F2AB00321809 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		793B58DF28C9F28100321809 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				793B58E028C9F2A000321809 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		793B58E828C9F75400321809 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				793B58E928C9F76300321809 /* UserDefault.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		793B58ED28C9FBE000321809 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				793B58F728C9FC6C00321809 /* ViewModel */,
+				793B58F428C9FC3E00321809 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		793B58EE28C9FBE700321809 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				797309DE28CA057B000E4507 /* ViewModel */,
+				797309DD28CA0573000E4507 /* ViewController */,
+				797309DC28CA0569000E4507 /* Coordinator */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		793B58EF28C9FBF100321809 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				795DA5F628D49D7E0017E021 /* ViewController */,
+				795DA5F528D49D770017E021 /* ViewModel */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		793B58F028C9FBF900321809 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				795DA5F828D49D960017E021 /* ViewModel */,
+				795DA5F728D49D8E0017E021 /* ViewController */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		793B58F428C9FC3E00321809 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				793B58F528C9FC5000321809 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		793B58F728C9FC6C00321809 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				793B58F828C9FC7A00321809 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		795DA5F228D49A790017E021 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				795DA5F328D49A870017E021 /* Colors.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		795DA5F528D49D770017E021 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		795DA5F628D49D7E0017E021 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				795DA5F928D49DB80017E021 /* CartViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		795DA5F728D49D8E0017E021 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				795DA5FB28D49DD80017E021 /* OrderViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		795DA5F828D49D960017E021 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		797309DC28CA0569000E4507 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				797309DF28CA058B000E4507 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		797309DD28CA0573000E4507 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				797309E328CA05B0000E4507 /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		797309DE28CA057B000E4507 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				797309E128CA059C000E4507 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		797309E728CA1999000E4507 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				797309E528CA1881000E4507 /* Router.swift */,
+				791E9C8C28D32B48005182E6 /* NavigationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E969321ABF38660EAE99738B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9485A09DAC348D62BDD9C1FF /* Pods_Food_Ninja.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA55777AD20D3D25C57E3766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B63D290A8E26DCFDB2CAE0D /* Pods-Food Ninja.debug.xcconfig */,
+				B165B1FB536807BE1971081A /* Pods-Food Ninja.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 793B588F28C9C5A700321809 /* Build configuration list for PBXNativeTarget "Food Ninja" */;
 			buildPhases = (
+				1A8DA6CA055959074011F18F /* [CP] Check Pods Manifest.lock */,
 				793B587428C9C5A500321809 /* Sources */,
 				793B587528C9C5A500321809 /* Frameworks */,
 				793B587628C9C5A500321809 /* Resources */,
+				AD17DA66CFC3DC9D658FF1A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +407,86 @@
 			files = (
 				793B588B28C9C5A700321809 /* LaunchScreen.storyboard in Resources */,
 				793B588828C9C5A700321809 /* Assets.xcassets in Resources */,
-				793B588328C9C5A500321809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A8DA6CA055959074011F18F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Food Ninja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD17DA66CFC3DC9D658FF1A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Ninja/Pods-Food Ninja-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Food Ninja/Pods-Food Ninja-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Food Ninja/Pods-Food Ninja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		793B587428C9C5A500321809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793B588028C9C5A500321809 /* ViewController.swift in Sources */,
+				793B58E128C9F2A000321809 /* LoginViewController.swift in Sources */,
+				795DA5F428D49A870017E021 /* Colors.swift in Sources */,
+				793B58EA28C9F76300321809 /* UserDefault.swift in Sources */,
+				79DBCCFD28D3303A0050C8FB /* AppCoordinator.swift in Sources */,
+				791E9C8D28D32B48005182E6 /* NavigationRouter.swift in Sources */,
 				793B587C28C9C5A500321809 /* AppDelegate.swift in Sources */,
+				797309ED28CA21F2000E4507 /* TabBarViewController.swift in Sources */,
+				797309EB28CA1CD7000E4507 /* Coordinator.swift in Sources */,
+				797309E428CA05B0000E4507 /* ProfileViewController.swift in Sources */,
+				795DA5FC28D49DD80017E021 /* OrderViewController.swift in Sources */,
+				793B58E328C9F2AB00321809 /* LoginViewModel.swift in Sources */,
 				793B588628C9C5A500321809 /* Food_Ninja.xcdatamodeld in Sources */,
-				793B587E28C9C5A500321809 /* SceneDelegate.swift in Sources */,
+				795DA5E928D48EC70017E021 /* TabBarCoordinator.swift in Sources */,
+				79DBCCFF28D3312D0050C8FB /* AppDelegateRouter.swift in Sources */,
+				793B58F928C9FC7A00321809 /* HomeViewModel.swift in Sources */,
+				79DBCD0128D331F60050C8FB /* AuthCoordinator.swift in Sources */,
+				797309E628CA1881000E4507 /* Router.swift in Sources */,
+				795DA5FA28D49DB80017E021 /* CartViewController.swift in Sources */,
+				793B58F628C9FC5000321809 /* HomeViewController.swift in Sources */,
+				797309E028CA058B000E4507 /* ProfileCoordinator.swift in Sources */,
+				797309E228CA059C000E4507 /* ProfileViewModel.swift in Sources */,
+				793B58CD28C9ED0F00321809 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		793B588128C9C5A500321809 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				793B588228C9C5A500321809 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		793B588928C9C5A700321809 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +614,7 @@
 		};
 		793B589028C9C5A700321809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B63D290A8E26DCFDB2CAE0D /* Pods-Food Ninja.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,7 +625,6 @@
 				INFOPLIST_FILE = "Food Ninja/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +642,7 @@
 		};
 		793B589128C9C5A700321809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B165B1FB536807BE1971081A /* Pods-Food Ninja.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,7 +653,6 @@
 				INFOPLIST_FILE = "Food Ninja/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
